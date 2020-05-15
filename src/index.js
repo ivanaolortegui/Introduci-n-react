@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Stateful from './components/Stateful'
+import HolaMundo from './components/HolaMundo'
+import Button from './components/Button'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Stateful />
   </React.StrictMode>,
   document.getElementById('root')
 );
